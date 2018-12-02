@@ -81,7 +81,7 @@ class FFT {
         var valuesAsComplex : UnsafeMutablePointer<DSPDoubleComplex>? = nil
         
         values.withUnsafeMutableBytes {
-            valuesAsComplex = $0.baseAddress?.bindMemory(to: DSPDoubleComplex.self, capacity: values.count)
+            valuesAsComplex = $0.baseAddress?.bindMemory(to: DSPDoubleComplex.self, capacity: N)
         }
         
         // Scramble-pack the real data into complex buffer in just the way that's
