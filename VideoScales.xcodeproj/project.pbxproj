@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		E64C97B21FA8B00F009E7C74 /* fft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fft.swift; sourceTree = "<group>"; };
-		E6FA453B1FA731C50064FB01 /* gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA453B1FA731C50064FB01 /* VideoScales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoScales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FA453E1FA731C50064FB01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6FA45401FA731C50064FB01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
 		E6FA45431FA731C50064FB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		E6FA45481FA731C50064FB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6FA454B1FA731C50064FB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6FA454D1FA731C50064FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6FA45521FA731C50064FB01 /* gaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FA45521FA731C50064FB01 /* VideoScalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoScalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FA45561FA731C50064FB01 /* gaugeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaugeTests.swift; sourceTree = "<group>"; };
 		E6FA45581FA731C50064FB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,8 +72,8 @@
 		E6FA453C1FA731C50064FB01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6FA453B1FA731C50064FB01 /* gauge.app */,
-				E6FA45521FA731C50064FB01 /* gaugeTests.xctest */,
+				E6FA453B1FA731C50064FB01 /* VideoScales.app */,
+				E6FA45521FA731C50064FB01 /* VideoScalesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E6FA453A1FA731C50064FB01 /* gauge */ = {
+		E6FA453A1FA731C50064FB01 /* VideoScales */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6FA455B1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "gauge" */;
+			buildConfigurationList = E6FA455B1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "VideoScales" */;
 			buildPhases = (
 				E6FA45371FA731C50064FB01 /* Sources */,
 				E6FA45381FA731C50064FB01 /* Frameworks */,
@@ -117,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = gauge;
+			name = VideoScales;
 			productName = gauge;
-			productReference = E6FA453B1FA731C50064FB01 /* gauge.app */;
+			productReference = E6FA453B1FA731C50064FB01 /* VideoScales.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E6FA45511FA731C50064FB01 /* gaugeTests */ = {
+		E6FA45511FA731C50064FB01 /* VideoScalesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6FA455E1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "gaugeTests" */;
+			buildConfigurationList = E6FA455E1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "VideoScalesTests" */;
 			buildPhases = (
 				E6FA454E1FA731C50064FB01 /* Sources */,
 				E6FA454F1FA731C50064FB01 /* Frameworks */,
@@ -135,9 +135,9 @@
 			dependencies = (
 				E6FA45541FA731C50064FB01 /* PBXTargetDependency */,
 			);
-			name = gaugeTests;
+			name = VideoScalesTests;
 			productName = gaugeTests;
-			productReference = E6FA45521FA731C50064FB01 /* gaugeTests.xctest */;
+			productReference = E6FA45521FA731C50064FB01 /* VideoScalesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6FA45361FA731C50064FB01 /* Build configuration list for PBXProject "gauge" */;
+			buildConfigurationList = E6FA45361FA731C50064FB01 /* Build configuration list for PBXProject "VideoScales" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6FA453A1FA731C50064FB01 /* gauge */,
-				E6FA45511FA731C50064FB01 /* gaugeTests */,
+				E6FA453A1FA731C50064FB01 /* VideoScales */,
+				E6FA45511FA731C50064FB01 /* VideoScalesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +227,7 @@
 /* Begin PBXTargetDependency section */
 		E6FA45541FA731C50064FB01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E6FA453A1FA731C50064FB01 /* gauge */;
+			target = E6FA453A1FA731C50064FB01 /* VideoScales */;
 			targetProxy = E6FA45531FA731C50064FB01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gauge.app/gauge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoScales.app/VideoScales";
 			};
 			name = Debug;
 		};
@@ -425,14 +425,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gauge.app/gauge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoScales.app/VideoScales";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6FA45361FA731C50064FB01 /* Build configuration list for PBXProject "gauge" */ = {
+		E6FA45361FA731C50064FB01 /* Build configuration list for PBXProject "VideoScales" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6FA45591FA731C50064FB01 /* Debug */,
@@ -441,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6FA455B1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "gauge" */ = {
+		E6FA455B1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "VideoScales" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6FA455C1FA731C50064FB01 /* Debug */,
@@ -450,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6FA455E1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "gaugeTests" */ = {
+		E6FA455E1FA731C50064FB01 /* Build configuration list for PBXNativeTarget "VideoScalesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6FA455F1FA731C50064FB01 /* Debug */,
