@@ -21,16 +21,3 @@ The weight of the object is calculated based on the oscillation period and accor
 ![Get the result](http://videoscales.com/img/scales3.svg)
 
 3. Get the result
-
-## Intellectual Property
-### Patents
-The presented solutions are covered by, or for use under, one or more pending patent applications in EU and other countries.
-
-### Other Intellectual Property Rights
-The presented solutions may be covered by design patent or registered industrial design, or other registered intellectual property rights.
-
-### License
-VideoScales-iOS is available under the MIT license. See the LICENSE file for more info.
-
-## Contact
-[videoscales.com](http://videoscales.com "Video Scales")
